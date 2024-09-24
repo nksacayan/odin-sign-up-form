@@ -8,9 +8,9 @@
 </head>
 <body>
     <div class="image-sidebar">
-        <img src="" alt="">
+        <img src="leaf_background.avif" alt="leaves" height="2792" width="1862"/>
         <div class="sidebar-caption">
-            <img src="" alt="">
+            <img src="odin-lined.png" alt="" width="380" height="508" >
             <h2>ODIN</h2>
         </div>
         <div class="sidebar-footer">
@@ -24,31 +24,37 @@
         </div>
         <div class="form-panel">
             <h3>Let's do this!</h3>
-            <form action="">
+            <form class="main-form" action="">
                 <ul>
                     <li>
-                        <label for="confirm_password">FIRST NAME</label>
-                        <input type="text" id="confirm_password" name="confirm_password">
+                        <div class="form-entry">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name" name="first_name">
+                        </div>
+                        <div class="form-entry">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" name="last_name">
+                        </div>
                     </li>
                     <li>
-                        <label for="last_name">LAST NAME</label>
-                        <input type="text" id="last_name" name="last_name">
+                        <div class="form-entry">
+                            <label for="email">EMAIL</label>
+                            <input type="text" id="email" name="email">
+                        </div>
+                        <div class="form-entry">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="text" id="phone_number" name="phone_number">
+                        </div>
                     </li>
                     <li>
-                        <label for="email">EMAIL</label>
-                        <input type="text" id="email" name="email">
-                    </li>
-                    <li>
-                        <label for="phone_number">PHONE NUMBER</label>
-                        <input type="text" id="phone_number" name="phone_number">
-                    </li>
-                    <li>
-                        <label for="password">PASSWORD</label>
-                        <input type="text" id="password" name="password">
-                    </li>
-                    <li>
-                        <label for="confirm_password">CONFIRM PASSWORD</label>
-                        <input type="text" id="confirm_password" name="confirm_password">
+                        <div class="form-entry">
+                            <label for="password">PASSWORD</label>
+                            <input type="text" id="password" name="password">
+                        </div>
+                        <div class="form-entry">
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <input type="text" id="confirm_password" name="confirm_password">
+                        </div>
                     </li>
                 </ul>
             </form>
